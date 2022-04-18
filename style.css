@@ -20,7 +20,7 @@
 }
 .section1{
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
 }
 .title p{
     font-size: 36px;
@@ -37,7 +37,7 @@
     color: #E5E7EB;
     gap: 20px;
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
 
 }
 .section2{
