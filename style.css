@@ -27,7 +27,10 @@
     align-items: right;
 }
 .bottom{
-    display: flex;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 70%;
+    margin: auto;
 }
 .text1{
     flex-grow: 1;
@@ -71,12 +74,11 @@
 }
 .section2{
     display: flex;
+    flex-direction: column;
     background-color: #E3E7EB;
-    text-align: right;
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    align-items: center;
 }
 .section2 strong{
     text-align: right;
